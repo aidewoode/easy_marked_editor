@@ -1,38 +1,208 @@
 #easyMarkedBody {
-  display: block;
   position: relative;
   margin: auto;
   font-size: 16px;
   border: 1px solid #eee; 
 }
 
-div.easyMarkedToolBar {
+.easyMarkedToolBar {
   padding: 5px 0;
   margin: auto;
   background-color: rgba(0, 221, 131, 0.9);
   border: 1px solid rgba(0, 221, 131, 0.9);
 }
 
-div.easyMarkedToolBar ul {
+.easyMarkedToolBar ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-div.easyMarkedToolBar ul a {
+.easyMarkedToolBar ul a {
   cursor: pointer;
   color: #555;
 }
 
-div.easyMarkedToolBar ul:after {
+.easyMarkedToolBar ul:after {
   content: "";
   clear: both;
   display: block;
 }
 
-div.easyMarkedToolBar li {
+.easyMarkedToolBar li {
   position: relative;
   float: left;
   margin-left: 20px;
 }
+
+.easyMarkedToolBar span.active {
+  color: #fff;
+}
+
+.easyMarkedPreview {
+  margin: auto;
+  border: 1px solid #eee; 
+  font-size: 18px;
+  font-family: "Helvetica Neue",Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","Wenquanyi Micro Hei",sans-serif,"Apple Color Emoji";
+  color: #4d4d4c;
+  word-wrap: break-word;
+  overflow: scroll;
+}
+
+.easyMarkedPreview ::selection {
+  background-color: rgb(214,214,214);
+}
+
+.easyMarkedPreview ::-moz-selection {
+  background-color: rgb(214,214,214);
+}
+
+.easyMarkedPreview h1 {
+  font-size: 1.8em;
+  margin: 0.67em 0;
+}
+
+.easyMarkedPreview h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+.easyMarkedPreview h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+.easyMarkedPreview h4,
+.easyMarkedPreview h5,
+.easyMarkedPreview h6 {
+  font-size: 1em;
+  margin: 1.6em 0 1em 0;
+}
+
+.easyMarkedPreview h6 {
+  font-weight: 500;
+}
+
+.easyMarkedPreview p {
+  letter-spacing: 1px;
+  margin: 1.46em 0 0 0.62em;
+}
+
+.easyMarkedPreview a {
+  color: #718c00;
+  word-wrap: break-word;
+  text-decoration: underline;
+}
+
+.easyMarkedPreview a:hover {
+  color: #555;
+  text-decoration: none;
+}
+
+.easyMarkedPreview b,
+.easyMarkedPreview strong {
+  font-weight: 700;
+  color: #333;
+}
+
+.easyMarkedPreview em,
+.easyMarkedPreview i {
+  font-style: italic;
+  color: #333;
+}
+
+.easyMarkedPreview img {
+  max-width: 100%;
+  height: auto;
+  margin: 0.2em 0;
+}
+
+.easyMarkedPreview hr {
+  display: block;
+  width: 38%;
+  margin: 40px auto 34px;
+  border: 0 none;
+  border-top: 1.5px solid #ddd;
+}
+
+.easyMarkedPreview blockquote {
+  margin: 1.64em 0 1.64em 1.44em;
+  border-left: 3px solid #eee;
+  padding-left: 12px;
+  color: #666;
+}
+
+.easyMarkedPreview ul,
+.easyMarkedPreview ol {
+  margin: 0 0 26px 8px;
+  padding-left: 16px;
+}
+
+.easyMarkedPreview ul {
+  list-style-type: disc;
+}
+
+.easyMarkedPreview ol {
+  list-style-type: decimal;
+}
+
+.easyMarkedPreview li {
+  margin-bottom: 0.2em;
+}
+
+.easyMarkedPreview li ul,
+.easyMarkedPreview li ol {
+  margin-top: 0;
+  margin-bottom 0;
+  margin-left: 14px;
+}
+
+.easyMarkedPreview li ul ul{
+  list-style-type: circle;
+}
+
+.easyMarkedPreview li p {
+  margin: 0.4em 0 0.6em;
+}
+
+.easyMarkedPreview code {
+  color: #4c4c4c;
+  font-sizeL 0.96em;
+  word-wrap: break-word;
+  font-family: Monaco, Consolas, "Courier New", monospace;
+  background: #eee;
+}
+
+.easyMarkedPreview pre {
+  margin: 1.64em 0;
+  padding: 7px;
+  padding-left: 10px;
+  line-height: 1.5;
+  background: #eee;
+}
+
+.easyMarkedPreview table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 1.5em;
+  font-size: 0.96em;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.easyMarkedPreview th,
+.easyMarkedPreview td {
+  text-align: left;
+  padding: 4px 8px 4px 10px;
+  border: 1px solid #ddd;
+}
+
+.easyMarkedPreview td {
+  vertical-align: top;
+}
+
+
+
 
