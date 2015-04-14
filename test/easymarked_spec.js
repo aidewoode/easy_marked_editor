@@ -35,28 +35,28 @@ describe("When load a EasyMarked Editor", function(){
                         false,false,false,0,null);
     it ("should add indicator of bold after click bold button", function() {
       editor.setValue("");
-      var boldButton = document.querySelector("span.fa-bold");
+      var boldButton = document.querySelector("span.easyMarked-icon-bold");
       boldButton.dispatchEvent(event);
       expect(editor.getUnformattedValue().trim()).toBe("****");
     });
 
     it ("should add indicator of italic after click italic button", function() {
       editor.setValue("");
-      var italicButton = document.querySelector("span.fa-italic");
+      var italicButton = document.querySelector("span.easyMarked-icon-italic");
       italicButton.dispatchEvent(event);
       expect(editor.getUnformattedValue().trim()).toBe("**");
     });
 
     it ("should add indicator of link after click link button", function() {
       editor.setValue("");
-      var linkButton = document.querySelector("span.fa-link");
+      var linkButton = document.querySelector("span.easyMarked-icon-link");
       linkButton.dispatchEvent(event);
       expect(editor.getUnformattedValue().trim()).toBe("[](http://)");
     });
 
     it ("should add indicator of picture after click picture button", function() {
       editor.setValue("");
-      var pictureButton = document.querySelector("span.fa-picture-o");
+      var pictureButton = document.querySelector("span.easyMarked-icon-picture");
       pictureButton.dispatchEvent(event);
       expect(editor.getUnformattedValue().trim()).toBe("![](http://)");
     });
@@ -64,7 +64,7 @@ describe("When load a EasyMarked Editor", function(){
     it ("should preview the formatted text after click preview button ", function() {
       editor.setValue("");
       editor.setValue("#a title");
-      var previewButton = document.querySelector("span.fa-eye");
+      var previewButton = document.querySelector("span.easyMarked-icon-eye");
       previewButton.dispatchEvent(event);
 
       var previewBody = document.querySelector(".easyMarkedPreview");
@@ -73,8 +73,8 @@ describe("When load a EasyMarked Editor", function(){
     });
 
     it ("should can't click other button after click preview button", function() {
-      var previewButton = document.querySelector("span.fa-eye");
-      var boldButton = document.querySelector("span.fa-bold");
+      var previewButton = document.querySelector("span.easyMarked-icon-eye");
+      var boldButton = document.querySelector("span.easyMarked-icon-bold");
 
       editor.setValue("");
       previewButton.dispatchEvent(event);

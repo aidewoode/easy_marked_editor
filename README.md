@@ -6,7 +6,7 @@ A simple and easy to use markdown editor.
 
 ##Usage
 
-The editor is depend on **Ace Editor**, **marked.js** and **fontawsome**. So before you use the editor ,you should add this dependence.
+The editor is depend on **Ace Editor** and **marked.js**. So before you use the editor ,you should add this dependence.
 
 When you added those dependence,you should add a textarea element to the HTML file. Note the element must be a textarea and with the "easyMarked" id.
 

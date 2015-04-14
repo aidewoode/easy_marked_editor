@@ -4,8 +4,7 @@
   "description": "a simple and easy to use markdown editor",
   "main": "lib/easymarked.js",
   "dependencies": {
-    "marked": "0.3.x",
-    "font-awesome": "4.3.x"
+    "marked": "0.3.x"
   },
   "devDependencies": {
     "grunt": "0.x",

@@ -17,12 +17,7 @@ module.exports = function(grunt) {
       },
 
       copyFileToVendor: {
-        command: [
-          "cp -r node_modules/marked vendor/marked",
-          "cp -r node_modules/font-awesome vendor/font-awesome"
-        ].join("&&")
-
-      
+        command: "cp -r node_modules/marked vendor/marked" 
       }
     
     }
