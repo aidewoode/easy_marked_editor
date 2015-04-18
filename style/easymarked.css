@@ -90,6 +90,7 @@
   color: #4d4d4c;
   word-wrap: break-word;
   overflow: scroll;
+  background: #fff;
 }
 
 .easyMarkedPreview ::selection {
