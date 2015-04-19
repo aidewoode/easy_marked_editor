@@ -73,7 +73,7 @@
   margin-left: 20px;
 }
 
-.easyMarkedToolBar span.fa.disabled {
+.easyMarkedToolBar span.easyMarked-icon.disabled {
   pointer-events: none; /* not support for IE11- */
   color: #888;
 }
