@@ -4,7 +4,8 @@ describe("When load a EasyMarked Editor", function(){
   var body = document.querySelector("body");
 
   body.appendChild(textarea);
-  var editor = new EasyMarked.Editor;
+  var editor = new EasyMarked.Editor();
+
   editor.load();
 
   it("should render all integrant elements", function() {
