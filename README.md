@@ -1,10 +1,10 @@
-#Introduction
+# Introduction
 
 A simple and easy to use markdown editor.
 
 **This editor is not finished yet, still on development**
 
-##Usage
+## Usage
 
 The editor is depend on **Ace Editor** and **marked.js**. So before you use the editor ,you should add this dependence.
 
@@ -64,7 +64,7 @@ Example:
 ```
 
 
-##Development
+## Development
 
 If you want to test the application or develope it , you can clone the repository,then run the Gruntfile. It will create the files you need.
 
